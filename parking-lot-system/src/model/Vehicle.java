@@ -1,8 +1,10 @@
-public Abstract class Vehicle {
+package model;
+
+public abstract class Vehicle {
     private String licensePlate;
     private VehicleType type;
 
-    public vehicle(String licensePlate, VehicleType type) {
+    public Vehicle(String licensePlate, VehicleType type) {
         this.licensePlate = licensePlate;
         this.type = type;
     }

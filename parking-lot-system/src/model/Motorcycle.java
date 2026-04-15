@@ -2,6 +2,6 @@ package model;
 
 public class Motorcycle extends Vehicle{
     public Motorcycle(String licensePlate) {
-        super(licensePlate, vehicleType.MOTORCYCLE);
+        super(licensePlate, VehicleType.MOTORCYCLE);
     }
 }
